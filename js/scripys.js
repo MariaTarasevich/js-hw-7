@@ -10,7 +10,7 @@ let Contacts = function() {
         this.checkAge();
     }
     this.checkAge = function(){
-        if (Math.abs(this.age) >= 18) {
+        if (this.age >= 18) {
             alert('Доступ разрешен')
         } else {
             alert('Доступ запрещен')
